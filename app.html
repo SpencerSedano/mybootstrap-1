@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/b09db0a345.js"></script>
+
+	<style type="text/css">
+		#jumbotron-one {
+			background-image:url(images/city.jpg);
+			background-position:center;
+			background-size:cover;
+			background-repeat:no-repeat;
+			color:white;
+		}
+		.card {
+    		min-height: 200px;
+		}
+		#jumbotron-two {
+			background-color:#80ced6;
+		}
+	</style>
+</head>
+<body>
+
+
+	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		  <a class="navbar-brand" href="#">MyApp</a>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+		      	<li class="nav-item active">
+		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      	</li>
+		      	<li class="nav-item">
+		        <a class="nav-link" href="#">About</a>
+		      	</li>
+		      	<li class="nav-item">
+		        <a class="nav-link" href="#">The App</a>
+		      	</li>
+		    </ul>
+			
+			<form class="form-inline">
+				<div class="form-group px-1">
+					<label for="email"></label>
+					<input type="email" class="form-control" id="email" placeholder="Email">
+				</div>
+				<div class="form-group px-1">
+					<label for="password"></label>
+					<input type="password" class="form-control" id="password" placeholder="Password">
+				</div>
+				<button type="button" class="btn btn-success">Login</button>
+			</form>
+		</div>
+	</nav>
+
+
+	
+	<div id="jumbotron-one" class="jumbotron">
+	  <h1 class="display-3 text-center">My Awesome App!</h1>
+	  <p class="lead text-center">This is why YOU should download this fantastic app!</p>
+	  <hr class="my-4">
+	  <p class="text-center">Want to know more? Join our mailing list!</p>
+
+ 		<form class="form-inline justify-content-center">
+		
+		  <label class="sr-only" for="inlineFormInputGroup">Username</label>
+		  <div class="input-group col-4">
+		    <div class="input-group-addon">@</div>
+		    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+		  </div>
+
+		  <button type="submit" class="btn btn-primary">Sign Up</button>
+
+		</form>
+	</div>
+
+	<div id="container">
+		<h2 class="display-4 text-center">Why This App Is Awesome</h2>
+		<p class="lead text-center">Summary, once again, of your app's awesomeness</p>
+
+		<div class="card-group">
+          
+          <div class="col-sm-4">
+              <div class="card card-block">
+              <img class="card-img-top img-thumbnail" src="images/person.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title"><i class="fa fa-anchor" aria-hidden="true"></i> Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-4">
+              <div class="card card-block">
+              <img class="card-img-top img-thumbnail" src="images/person.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title"><i class="fa fa-motorcycle" aria-hidden="true"></i> Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-4">
+              <div class="card card-block"">
+              <img class="card-img-top img-thumbnail" src="images/person.jpg" alt="Card image cap">
+              <div class="card-block">
+                <h4 class="card-title"><i class="fa fa-birthday-cake" aria-hidden="true"></i> Card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Button</a>
+              </div>
+            </div>
+          </div>
+          
+       </div> 
+
+	</div>
+
+	<div id="jumbotron-two" class="jumbotron">
+		<h2 class="display-4 text-center">Download the app!</h2>
+		<p class="lead text-center">Really, why should I download this app??</p>
+		<img src="images/app-store.png" alt="Responsive image" class="rounded mx-auto d-block" style="width:250px;height:80px">
+	</div>
+	
+
+</body>
+</html>
